@@ -21,8 +21,28 @@ header{
     }
 }
 main{
+    background-image: url('https://www.capodannissimo.com/wp-content/uploads/2019/08/vacanza-mare-dicembre.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     h1{
+        font-size: 3rem;
         text-align: center;
         margin: 10px;
+    }
+    .viaggi{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .viaggio{
+        background-color: lightblue;
+        padding: 10px;
+        h2{
+            margin: 10px 0;
+        }
+        p{
+            margin: 5px 0;
+        }
+        width: calc(100% / 3);
+        margin: 10px 15px;
     }
 }
