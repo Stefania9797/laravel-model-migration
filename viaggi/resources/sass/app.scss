@@ -1,1 +1,28 @@
-//
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    nav{
+        a{
+            text-decoration: none;
+            color: black;
+            text-transform: uppercase;
+            font-weight: bold;
+            display: inline-block;
+            margin: 0 20px;
+        }
+    }
+}
+main{
+    h1{
+        text-align: center;
+        margin: 10px;
+    }
+}

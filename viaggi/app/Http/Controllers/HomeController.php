@@ -9,7 +9,7 @@ class HomeController extends Controller
 {
     public function index()
     {
-        $pacchetti = Viaggio::all();
-        return view('home', compact('pacchetti'));
+        $viaggi = Viaggio::all();
+        return view('home', compact('viaggi'));
     }
 }
